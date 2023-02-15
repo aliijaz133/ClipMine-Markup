@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid Page</title>
+    <style>
+      * {
+        margin: 0;
+      }
+
+      .benefits {
+        display: grid;
+        margin-left: auto;
+        margin-right: auto;
+        grid-template-columns: 100px 500px;
+        grid-template-rows: 20px 90px;
+        justify-content: center;
+      }
+
+      .benefit-item1 {
+        grid-row-start: 1;
+        grid-row-end: 3;
+      }
+
+      .benefit-item4 {
+        grid-row-start: 3;
+        grid-row-end: 5;
+      }
+
+      .benefit-item7 {
+        grid-row-start: 5;
+        grid-row-end: 9;
+      }
+
+      .benefit-item3 {
+        padding-top: 10px;
+        font-size: 14px;
+      }
+
+      #benefit-image {
+        width: 80px;
+        height: 80px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="benefits">
+      <div class="benefit-item1">
+        <img
+          src="benefits/index-benefit-personal_166x166.png"
+          id="benefit-image"
+        />
+      </div>
+      <div class="benefit-item2"><h5>Personalized Experience</h5></div>
+      <div class="benefit-item3">
+        <p>
+          ClipMine allows your viewers to the video content and see what's
+          inside, through it and specified parts of the videos they like.
+        </p>
+      </div>
+      <div class="benefit-item4">
+        <img
+          src="benefits/index-benefit-engagement_166x166.png"
+          id="benefit-image"
+        />
+      </div>
+      <div class="benefit-item2"><h5>Improved Engagement</h5></div>
+      <div class="benefit-item3">
+        Our customers have seen up to 50% higher engagement and lower early
+        drop-off rates on their videos when embedded with ClipMine.
+      </div>
+      <div class="benefit-item7">
+        <img
+          src="benefits/index-benefit-analytics_166x166.png"
+          id="benefit-image"
+        />
+      </div>
+      <div class="benefit-item2"><h5>Actionable Analytics</h5></div>
+      <div class="benefit-item3">
+        Our in-video analytics (by invitation only) allow you to understand user
+        engagement in terms of your content rather than timestamps. You'll
+        exactly know which parts of the video are more likely to be clicked and
+        how long users stay there.
+      </div>
+    </div>
+  </body>
+</html>
