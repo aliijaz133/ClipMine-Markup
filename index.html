@@ -14,19 +14,13 @@
     <title>ClipMine</title>
   </head>
   <body>
-    <header class="header">
-      <div class="menu-container">
-        <img
-          src="clipmine_logo_beta_226x50.png"
-          alt="Image not preview"
-          id="image-logo"
-        />
-        <nav class="menu-button">
-          <ul>
-            <li id="menu-button"><a href="#">Home</a></li>
-            <li id="menu-button"><a href="#">Help</a></li>
-          </ul>
-        </nav>
+    <header>
+      <div class="left">
+        <div class="logo-container"><img src="clipmine_logo_beta_226x50.png" alt="Image not Preview"></div>
+        <div class="logo-container" id="home-btn">Home</div>
+        <div class="logo-container" id="home-btn">Help</div>
+      </div> 
+      <div class="main">
         <form class="form-item__submit">
           <button type="submit" id="search-button">
             <li class="fa fa-search"></li>
@@ -40,15 +34,23 @@
           />
         </form>
       </div>
-      <div class="sign-buttons">
-        <ul>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Login</a></li>
-          <li><a href="#">Sign Up</a></li>
-        </ul>
+      <div class="right">
+        <div class="sign-btn">Blog</div>
+        <div class="sign-btn">Login</div>
+        <div class="sign-btn">Sign Up</div>
       </div>
     </header>
     <main>
+      <div class="main-video">
+        <div class="main-video__heading">
+          <h1 id="heading-one">A Better Video Experience for the web</h1>
+        </div>
+        <div class="main-video__heading">
+          <p>Clip Mine enables bloggers, creators and enthusiasts to tag content inside online videos and create a more engaging video experience.</p>
+        </div>
+        <div class="main-video__heading">
+          <button id="signup-button">sign up</button></div>
+        </div>
       <div class="video__des">
         <p id="container-title">
           <h6 id="heading7">Help your viewers discover what matters most to them!</h6>
@@ -185,210 +187,211 @@
           more samples
         </p>
       </div>
-    <div class="features__container">
-      <h6 id="heading7">Features</h6>
-      <div class="features-container__boxes">
-        <div class="feature__box">
-          <img
-            src="features/index-sharing_300x120.png"
-            alt="Meaningful Sharing"
-          />
-          <h5>Meaningful Sharing</h5>
-          <p id="detail-paragraph">
-            ClipMine works great for sharing and embedding recorded video-game
-            sessions, tutorials, product reviews, talk shows, speeches, lectures
-            and sports coverage. Try out more samples
-          </p>
-        </div>
-        <div class="feature__box">
-          <img
-            src="features/index-embeds_300x120.png"
-            alt="Interactive Embeds"
-          />
-          <h5>Interactive Embeds</h5>
-          <p id="detail-paragraph">
-            Want to enable the ClipMine experience on your blog or Twitter feed?
-            Just embed out content-Aware Video Player. It is responsive and
-            built to work across different modern browsers and devices. Satrt by
-            tagging a video of your choice or pick an already tagged one simply
-            paste the embed code into your website.
-          </p>
-        </div>
-        <div class="feature__box">
-          <img src="features/index-tagging_300x120.png" alt="Smart Tagging" />
-          <h5>Smart Tagging</h5>
-          <p id="detail-paragraph">
-            Found an interesting point in a video? On ClipMine adding tags is
-            not reserved for the video owners only - any community member can do
-            it. In addition our smart algorithms can automatically suggest tags
-            (in private beta) for a wide variety of videos!
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="benefits-container">
-      <h6 id="heading7">Benefits</h6>
-      <div class="benefits">
-        <div class="benefit-image__Experience">
-          <img
-            src="benefits/index-benefit-personal_166x166.png"
-            id="benefit-image"
-          />
-        </div>
-        <div class="benefit-item2">
-          <h5 id="benefits-heading">Personalized Experience</h5>
-        </div>
-        <div class="benefit-description">
-          <p>
-            ClipMine allows your viewers to the video content and see what's
-            inside, through it and specified parts of the videos they like.
-          </p>
-        </div>
-        <div class="benefit-image__Engagement">
-          <img
-            src="benefits/index-benefit-engagement_166x166.png"
-            id="benefit-image"
-          />
-        </div>
-        <div class="benefit-item2">
-          <h5 id="benefits-heading">Improved Engagement</h5>
-        </div>
-        <div class="benefit-description">
-          Our customers have seen up to 50% higher engagement and lower early
-          drop-off rates on their videos when embedded with ClipMine.
-        </div>
-        <div class="benefit-image__Analytics">
-          <img
-            src="benefits/index-benefit-analytics_166x166.png"
-            id="benefit-image"
-          />
-        </div>
-        <div class="benefit-item2">
-          <h5 id="benefits-heading">Actionable Analytics</h5>
-        </div>
-        <div class="benefit-description">
-          Our in-video analytics (by invitation only) allow you to understand
-          user engagement in terms of your content rather than timestamps.
-          You'll exactly know which parts of the video are more likely to be
-          clicked and how long users stay there.
-        </div>
-      </div>
-    </div>
-    <div class="Video-container">
-      <h6 id="heading7">ClipMine Video Collections</h6>
-      <div class="video__containers">
-        <div class="video-container__clipmine">
-          <img
-            src="collections/collection-startup_460x184.png"
-            alt="Image Not Preview"
-            id="startup__img"
-          />
-          <div class="startup__detail">
-            <p id="startup__detail__setting">Startups</p>
+      <div class="features-container">
+        <h6 id="heading7">Features</h6>
+        <div class="features-container__boxes">
+          <div class="feature-box">
+            <img
+              src="features/index-sharing_300x120.png"
+              alt="Meaningful Sharing"
+            />
+            <h5>Meaningful Sharing</h5>
+            <p id="detail-paragraph">
+              ClipMine works great for sharing and embedding recorded video-game
+              sessions, tutorials, product reviews, talk shows, speeches, lectures
+              and sports coverage. Try out more samples
+            </p>
           </div>
-        </div>
-        <div class="Video-container__clipmine">
-          <img
-            src="collections/collection-ml_461x184.png"
-            alt="Image Not Preview"
-            id="startup__img"
-          />
-          <div class="startup__detail">
-            <p id="startup__detail__setting">Machine Learning</p>
+          <div class="feature-box">
+            <img
+              src="features/index-embeds_300x120.png"
+              alt="Interactive Embeds"
+            />
+            <h5>Interactive Embeds</h5>
+            <p id="detail-paragraph">
+              Want to enable the ClipMine experience on your blog or Twitter feed?
+              Just embed out content-Aware Video Player. It is responsive and
+              built to work across different modern browsers and devices. Satrt by
+              tagging a video of your choice or pick an already tagged one simply
+              paste the embed code into your website.
+            </p>
+          </div>
+          <div class="feature-box">
+            <img src="features/index-tagging_300x120.png" alt="Smart Tagging" />
+            <h5>Smart Tagging</h5>
+            <p id="detail-paragraph">
+              Found an interesting point in a video? On ClipMine adding tags is
+              not reserved for the video owners only - any community member can do
+              it. In addition our smart algorithms can automatically suggest tags
+              (in private beta) for a wide variety of videos!
+            </p>
           </div>
         </div>
       </div>
-    </div>
-    <p id="clipmine__last__line">
-      These are curated lists of high quality online videos, tagged by
-      ClipMine's smart algorithms and editors to <br />
-      demonstrate the usefullness of ClipMine.
-    </p>
-    <div class="content__image">
-      <p id="container-title">Who's Using ClipMine?</p>
-      <div class="mineclip-content__images">
-        <img src="partners/partner-yc_215x94.png" alt="Image not preview" />
-        <img
-          src="partners/partner-blackbox_215x94.png"
-          alt="Image not preview"
-        />
-        <img src="partners/partner-ucf_215x94.png" alt="Image not preview" />
-        <img
-          src="partners/partner-bothsides_215x94.png"
-          alt="Image not preview"
-        />
-        <img src="partners/partner-cv_215x94.png" alt="Image not preview" />
-        <img
-          src="partners/partner-500startups_215x94.png"
-          alt="Image not preview"
-        />
+      <div class="benefits-container">
+        <h6 id="heading7">Benefits</h6>
+        <div class="benefits">
+          <div class="benefit-image__Experience">
+            <img
+              src="benefits/index-benefit-personal_166x166.png"
+              id="benefit-image"
+            />
+          </div>
+          <div class="benefit-item2">
+            <h5 id="benefits-heading">Personalized Experience</h5>
+          </div>
+          <div class="benefit-description">
+            <p>
+              ClipMine allows your viewers to the video content and see what's
+              inside, through it and specified parts of the videos they like.
+            </p>
+          </div>
+          <div class="benefit-image__Engagement">
+            <img
+              src="benefits/index-benefit-engagement_166x166.png"
+              id="benefit-image"
+            />
+          </div>
+          <div class="benefit-item2">
+            <h5 id="benefits-heading">Improved Engagement</h5>
+          </div>
+          <div class="benefit-description">
+            Our customers have seen up to 50% higher engagement and lower early
+            drop-off rates on their videos when embedded with ClipMine.
+          </div>
+          <div class="benefit-image__Analytics">
+            <img
+              src="benefits/index-benefit-analytics_166x166.png"
+              id="benefit-image"
+            />
+          </div>
+          <div class="benefit-item2">
+            <h5 id="benefits-heading">Actionable Analytics</h5>
+          </div>
+          <div class="benefit-description">
+            Our in-video analytics (by invitation only) allow you to understand
+            user engagement in terms of your content rather than timestamps.
+            You'll exactly know which parts of the video are more likely to be
+            clicked and how long users stay there.
+          </div>
+        </div>
       </div>
-      <p id="container-title2">
-        Want to embed videos on your website? <span id="span1">content</span>
+      <div class="Video-container">
+        <h6 id="heading7">ClipMine Video Collections</h6>
+        <div class="video__containers">
+          <div class="video-container__clipmine">
+            <img
+              src="collections/collection-startup_460x184.png"
+              alt="Image Not Preview"
+              id="startup__img"
+            />
+            <div class="startup__detail">
+              <p id="startup__detail__setting">Startups</p>
+            </div>
+          </div>
+          <div class="Video-container__clipmine">
+            <img
+              src="collections/collection-ml_461x184.png"
+              alt="Image Not Preview"
+              id="startup__img"
+            />
+            <div class="startup__detail">
+              <p id="startup__detail__setting">Machine Learning</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p id="clipmine-last__line">
+        These are curated lists of high quality online videos, tagged by
+        ClipMine's smart algorithms and editors to <br />
+        demonstrate the usefullness of ClipMine.
       </p>
-    </div>
-    <form id="form__containers">
-      <p id="container-title">What would you like to tag?</p>
-      <div class="form__containers">
-        <div class="form__input">
-          <input
-            type="url"
-            name="url"
-            placeholder="Paste a Youtube, Vimeo or Dailymotion video URL"
-            id="input__tag"
-            required
+      <div class="content__image">
+        <p id="container-title">Who's Using ClipMine?</p>
+        <div class="mineclip-content__images">
+          <img src="partners/partner-yc_215x94.png" alt="Image not preview" />
+          <img
+            src="partners/partner-blackbox_215x94.png"
+            alt="Image not preview"
+          />
+          <img src="partners/partner-ucf_215x94.png" alt="Image not preview" />
+          <img
+            src="partners/partner-bothsides_215x94.png"
+            alt="Image not preview"
+          />
+          <img src="partners/partner-cv_215x94.png" alt="Image not preview" />
+          <img
+            src="partners/partner-500startups_215x94.png"
+            alt="Image not preview"
           />
         </div>
-        <div class="form__input">
-          <button type="submit" id="tag-now__btn">Tag Now</button>
+        <p id="container-title2">
+          Want to embed videos on your website? <span id="span1">content</span>
+        </p>
+      </div>
+      <form id="form__containers">
+        <p id="container-title">What would you like to tag?</p>
+        <div class="form__containers">
+          <div class="form__input">
+            <input
+              type="url"
+              name="url"
+              placeholder="Paste a Youtube, Vimeo or Dailymotion video URL"
+              id="input__tag"
+              required
+            />
+          </div>
+          <div class="form__input">
+            <button type="submit" id="tag-now__btn">Tag Now</button>
+          </div>
+        </div>
+      </form>
+      <div class="platform">
+        <p id="container-title">Supported Platforms</p>
+        <div class="platforms__container">
+          <div class="platform__container">
+            <img
+              src="platforms/platform-youtube_230x100.png"
+              alt="Youtube logo not preview"
+            />
+          </div>
+          <div class="platform__container">
+            <img
+              src="platforms/platform-vimeo_230x100.png"
+              alt="Vimeo logo not preview"
+            />
+          </div>
+          <div class="platform__container">
+            <img
+              src="platforms/platform-dailymotion_230x100.png"
+              alt="Dailymotion logo not preview"
+            />
+          </div>
+          <div class="platform__container">
+            <img
+              src="platforms/platform-html5_230x100.png"
+              alt="HTML5 logo not preview"
+            />
+          </div>
         </div>
       </div>
-    </form>
-    <div class="platform">
-      <p id="container-title">Supported Platforms</p>
-      <div class="platforms__container">
-        <div class="platform__container">
-          <img
-            src="platforms/platform-youtube_230x100.png"
-            alt="Youtube logo not preview"
-          />
-        </div>
-        <div class="platform__container">
-          <img
-            src="platforms/platform-vimeo_230x100.png"
-            alt="Vimeo logo not preview"
-          />
-        </div>
-        <div class="platform__container">
-          <img
-            src="platforms/platform-dailymotion_230x100.png"
-            alt="Dailymotion logo not preview"
-          />
-        </div>
-        <div class="platform__container">
-          <img
-            src="platforms/platform-html5_230x100.png"
-            alt="HTML5 logo not preview"
-          />
-        </div>
-      </div>
-    </div>
-    <div class="contacts__info">
-      <ul>
-        <li id="contact-info">Contact Us</li>
-        |
-        <li id="contact-info">About Clipmine</li>
-        |
-        <li id="contact-info">Blog</li>
-        |
-        <li id="contact-info">Help Center</li>
-        |
-        <li id="contact-info">
-          <i class="fa fa-facebook"></i> <i class="fa fa-twitter"></i>
-        </li>
-      </ul>
-    </div>
+    </main>
     <footer>
+      <div class="contacts__info">
+        <ul>
+          <li id="contact-info">Contact Us</li>
+          |
+          <li id="contact-info">About Clipmine</li>
+          |
+          <li id="contact-info">Blog</li>
+          |
+          <li id="contact-info">Help Center</li>
+          |
+          <li id="contact-info">
+            <i class="fa fa-facebook"></i> <i class="fa fa-twitter"></i>
+          </li>
+        </ul>
+      </div>
       <div class="copyright__container">
         &copy; 2016 ClipMine, Inc. Terms of use Privacy policy
       </div>
